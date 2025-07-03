@@ -17,7 +17,7 @@ Welcome to my JavaScript Practice Journey! This repository is a collection of da
 Each topic has its own folder with multiple practice problems:
 
 ```
-javascript_july/
+javascript-challenges-2025/
 ├── 01_string/      # String manipulation problems
 ├── 02_arrays/      # Array operations and methods
 ├── 03_loops/       # Loop and iteration challenges
