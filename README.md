@@ -2,7 +2,7 @@
 
 ## 📚 About This Repository
 
-Welcome to my JavaScript Practice Journey! This repository is a collection of daily coding challenges and solutions, designed to strengthen JavaScript fundamentals and problem-solving skills. What makes this journey unique is that all the code is written and pushed using a Redmi 5A phone, proving that you don't need fancy equipment to learn programming!
+Welcome to my JavaScript Practice Journey! This repository is a collection of daily coding challenges and solutions, designed to strengthen JavaScript fundamentals and problem-solving skills. What makes this journey unique is that all the code is written and pushed to learn programming!
 
 ## 🎯 Purpose
 
@@ -77,4 +77,4 @@ I update this repository daily with:
 
 ⭐ If you find this repository helpful, please consider giving it a star!
 
-_Happy Coding! Keep pushing code, even if it's from a phone!_ 📱💻
+_Happy Coding! Keep pushing code!_ 📱💻
