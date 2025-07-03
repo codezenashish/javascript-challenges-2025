@@ -32,12 +32,15 @@ function Q3() {
 
 Q3(); //complete
 
+function Q4() {
+  const removeDuplicates1 = [1, 2, 2, 3, 4, 4, 5];
+  const removeDuplicates2 = ["a", "b", "a", "c"];
 
-function Q4(){
-    const removeDuplicates1 = [1, 2, 2, 3, 4, 4, 5]
-    const removeDuplicates2 = ["a", "b", "a", "c"]
-    
-    
+  let uniqueValue1 = [...new Set(removeDuplicates1)];
+  let uniqueValue2 = [...new Set(removeDuplicates2)];
+
+  console.log(uniqueValue1);
+  console.log(uniqueValue2);
 }
 
-Q4()
+Q4();
