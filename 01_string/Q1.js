@@ -43,4 +43,18 @@ function Q4() {
   console.log(uniqueValue2);
 }
 
-Q4();
+Q4(); // complete
+
+function Q5() {
+  function sumEvenNumbers(n) {
+    const lastEvan = n % 2 === 0 ? n : n - 1;
+    const count = Math.floor(lastEvan / 2);
+    return count * (count + 1);
+  }
+  console.log(sumEvenNumbers(10));
+  console.log(sumEvenNumbers(5));
+}
+
+Q5();
+
+
