@@ -69,3 +69,15 @@ function Q6() {
 }
 
 Q6(); // complete
+
+function Q7() {
+  const fizBuz = [1, 2, 3, "hello", 5, "world", 7];
+  const value = fizBuz.map((item, index) => {
+    if (isNaN(item)) {
+      return index + 1;
+    }
+    return item;
+  });
+  console.log(value);
+}
+Q7(); // complete
