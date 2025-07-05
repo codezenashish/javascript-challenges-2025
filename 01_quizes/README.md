@@ -103,7 +103,7 @@ calculateAge({name: "Jane", birthYear: 2000}) => 25
 
 ### Problem 10: Group Students by Grade
 
-**Description:** Write a function that takes an array of student objects and groups them by their grade level.
+**Description:** 
 **Example:**
 
 ```
@@ -117,6 +117,12 @@ groupByGrade([
 }
 ```
 
+
+<!-- day 2 -->
+
+
+
+
 ---
 
 **Instructions:**
@@ -128,3 +134,6 @@ groupByGrade([
 - Don't worry about edge cases initially - focus on getting the basic functionality working
 
 **Happy Coding! 🚀**
+
+
+

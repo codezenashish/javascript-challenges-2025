@@ -5,6 +5,18 @@ function Q1() {
 
   console.log(reverseString("hello").join(""));
   console.log(reverseString("javascript").join(""));
+
+  function loopQ() {
+    let newStr = "Hello World";
+
+    let strax = "";
+    for (let i = 0; i < newStr.length; i++) {
+      strax = newStr[i] + strax;
+    }
+    console.log(strax);
+  }
+
+  loopQ();
 }
 
 Q1(); // complete
@@ -81,3 +93,51 @@ function Q7() {
   console.log(value);
 }
 Q7(); // complete
+
+function Q8() {
+  const vowels = ["a", "e", "i", "o", "u"];
+  const myWords = [
+    "apple",
+    "banana",
+    "sky",
+    "rhythm",
+    "elephant",
+    "xyz",
+    "Orange",
+  ];
+  const myArray = [];
+
+  for (const word of myWords) {
+    const lowCase = word.toLowerCase();
+    const hasVowels = vowels.some((vowels) => lowCase.includes(vowels));
+    if (hasVowels) {
+      myArray.push(word);
+    }
+  }
+
+  console.log(myArray);
+}
+
+Q8();
+
+function Q9() {
+  function userAge(userObject) {
+    const currentDate = new Date().getFullYear();
+    const birthYear = userObject.birthYear;
+
+    const age = currentDate - birthYear;
+    return age;
+  }
+
+  const user = {
+    name: "Ashish",
+    birthYear: 1990,
+  };
+
+  const user1 = userAge(user);
+  console.log(user1);
+}
+
+Q9();
+
+function Q10() {}
