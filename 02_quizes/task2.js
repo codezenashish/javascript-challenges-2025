@@ -82,16 +82,88 @@
 // console.log(capitalizeWord("ashish choudhray"));
 
 function Q8() {
-  const arrayA = [10,20,30,40];
+  const arrayA = [10, 20, 30, 40];
   let sum = arrayA.reduce((total, num) => {
-    console.log(`${total}  ${num} `)
-    return total + num
+    console.log(`${total}  ${num} `);
+    return total + num;
   });
-  console.log(sum)
+  console.log(sum);
 
   // console.log(sum);
   // let average = sum / arrayA.length
   // console.log(average)
-
 }
 Q8();
+
+function countCharecter(str, char) {
+  let count = 0;
+  for (let i = 0; i < str.length; i++) {
+    if (str[i] === char) {
+      count++;
+    }
+  }
+  return count;
+}
+console.log(countCharecter("honeyy", "y"));
+
+function arrayContain(ary, check) {
+  for (let i = 0; i < ary.length; i++) {
+    if (ary[i] === check) {
+      return true;
+    }
+  }
+  return false;
+}
+
+console.log(arrayContain(["honey", "ashish", "amita", "kevin"], "amita"));
+console.log(arrayContain([1, 2, 3, 4, 5, 6], 4));
+
+//11
+
+function generateRange(a, b) {
+  for (let i = a; i <= b; i++) {
+    console.log(i);
+  }
+}
+generateRange(10, 20);
+
+// 12
+
+function lengthWithoutSpaces(str) {
+  let count = 0;
+  for (let i = 0; i < str.length; i++) {
+    if (str[i] !== " ") {
+      count++;
+    }
+  }
+  return count;
+}
+
+console.log(lengthWithoutSpaces("h e l l o"));
+
+// 14
+
+function multiplyArray(ary) {
+  return ary.reduce((acc, curr) => acc * curr);
+}
+
+console.log(multiplyArray([2,3,4]))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
