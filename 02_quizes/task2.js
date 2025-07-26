@@ -9,21 +9,21 @@
 // }
 // Q1();
 
-// const word = "hello world";
-// const vowels = "aeiou";
-// let count = 0;
-// let strCount = "";
-// let x = [];
+const word = "hello world";
+const vowels = "aeiou";
+let count = 0;
+let strCount = "";
+let x = [];
 
-// for (let i = 0; i < word.length; i++) {
-//   if (vowels.includes(word[i])) {
-//     count++;
-//     strCount += word[i];
-//     x.push(i);
-//   }
-// }
-// console.log(x);
-// console.log(count, strCount);
+for (let i = 0; i < word.length; i++) {
+  if (vowels.includes(word[i])) {
+    count++;
+    strCount += word[i];
+    x.push(i);
+  }
+}
+console.log(x);
+console.log(count, strCount);
 
 // function Q3() {
 //   let aNumbers = [1, 5, 3, 6, 8, 2];
@@ -147,23 +147,13 @@ function multiplyArray(ary) {
   return ary.reduce((acc, curr) => acc * curr);
 }
 
-console.log(multiplyArray([2,3,4]))
+console.log(multiplyArray([2, 3, 4]));
 
+// 16
 
+function countWords(str) {
+  const words = str.trim().split(/\s+/);
+  return words.filter(words.length > 0).length;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log(countWords('hello words'))
