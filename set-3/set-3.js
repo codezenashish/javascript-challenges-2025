@@ -42,3 +42,12 @@ function reverseWord(str) {
 }
 
 console.log(reverseWord("hello ashish"));
+
+function toCamelCase(somthing) {
+  const value = somthing.split(/[ -]+/)
+  const newValue = value.map(word => word.charAt(0).toUpperCase() + word.slice(1))
+
+  console.log(newValue);
+}
+
+console.log(toCamelCase("Ashish choudhary"));
