@@ -118,8 +118,6 @@ groupByGrade([
 ```
 
 
-<!-- day 2 -->
-
 
 
 
